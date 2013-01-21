@@ -15,7 +15,7 @@
 ====================================================================================== */
 
 
-var url = 'http://localhost/ulisesrodriguez/codecs/Codeigniter/Medical/';
+var url = '';
 
 // Textarea count
 // options
