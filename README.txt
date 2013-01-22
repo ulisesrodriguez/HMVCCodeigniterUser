@@ -18,11 +18,11 @@
   
   Instalación
   
-  1.- Descarga. <a href="https://github.com/ulisesrodriguez/user.git" target="_blank">aquí</a> 
+  1.- Descarga. https://github.com/ulisesrodriguez/user.git"
   
-  2.- Descarga Codeigniter. <a href="http://ellislab.com/codeigniter" target="_blank">aquí</a>
+  2.- Descarga Codeigniter. http://ellislab.com/codeigniter
   
-  3.- Descarga la extención HMVC para codeigniter. <a href="https://github.com/Crypt/Codeigniter-HMVC" target="_blank">aquí</a>  
+  3.- Descarga la extención HMVC para codeigniter. https://github.com/Crypt/Codeigniter-HMVC
   
   4.- Descomprime el archivo rar de codeigniter y copealo en C:\\yourserver\www.  
   
@@ -48,10 +48,11 @@
   
   Abre el archivo application/modules/user/controllers/user.php
   
-	En el metodo
-	public function view_list( $begin = 0 )<br />
+  En el metodo
+  
+  public function view_list( $begin = 0 )
 	
-	$config['per_page'] = 20;  //Aquí cambia la cantidad de registros por pagina que quieres mostrar
+  $config['per_page'] = 20;  //Aquí cambia la cantidad de registros por pagina que quieres mostrar
   
 	  
   
