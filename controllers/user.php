@@ -20,10 +20,6 @@ class User extends CI_Controller {
 	public $data = array();
 	
 	// Language
-	
-	// values: spanish or english
-	// Default: english
-	
 	public $language = 'english';
 	
 	// Language Validator
@@ -36,7 +32,12 @@ class User extends CI_Controller {
 			
 		parent::__construct();
 		
-		// setting language	
+		// Setting Language
+		$this->language = $this->config->config['language'];
+		$this->lang_validator = $this->config->config['language'];
+		
+		
+		// Load language	
 		$this->lang->load( 'user', $this->language );			
 		
 								
