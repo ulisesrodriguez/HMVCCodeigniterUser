@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Hmvccodeigniteruser : Module HMVC Codeigniter For Users" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Hmvccodeigniteruser</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/ulisesrodriguez/HMVCCodeigniterUser">View on GitHub</a>
+
+          <h1 id="project_title">Hmvccodeigniteruser</h1>
+          <h2 id="project_tagline">Module HMVC Codeigniter For Users</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/ulisesrodriguez/HMVCCodeigniterUser/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/ulisesrodriguez/HMVCCodeigniterUser/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>Ulises Rodriguez.</h3>
+
+<p>Site      : <a href="http://www.ulisesrodriguez.com">http://www.ulisesrodriguez.com</a><br>
+  Twitter   : @isc_ulises <br>
+  Facebook  : <a href="http://www.facebook.com/ISC.Ulises">http://www.facebook.com/ISC.Ulises</a><br>
+  gmail     : <a href="mailto:ing.ulisesrodriguez@gmail.com">ing.ulisesrodriguez@gmail.com</a><br>
+  skype     : systemonlinesoftware<br>
+  Github    : <a href="https://github.com/ulisesrodriguez">https://github.com/ulisesrodriguez</a><br></p>
+
+<p>Location: Mundial</p>
+
+<h1>Descriptión</h1>
+
+<pre><code>   This module allow create, update, delete and view profiles of user registered in your sistem.
+   Language Spanish and English
+</code></pre>
+
+<h1>Install</h1>
+
+<pre><code>
+  1.- Download. https://github.com/ulisesrodriguez/user.git"
+
+  2.- Download Codeigniter. http://ellislab.com/codeigniter
+
+  3.- Download extencion HMVC for codeigniter. https://github.com/Crypt/Codeigniter-HMVC
+
+  4.- Uncompress the file rar of codeigniter and copy to C:\\yourserver\www.  
+
+  5.- Uncompress the file rar of extención HMVC and configure.  
+
+  6.- Uncompress the file rar and copy the module in this folder application/modules/.    
+
+  7.- Run the file application/modules/user/assets/sql/sql.sql  in PHPMyAdmin
+
+  8.- GO URL http://youcodeigniterinstalation/user/view_list.  
+
+
+</code></pre>
+
+<h1>Config ajax javascript</h1>
+
+<pre><code>
+  Open the file application/modules/user/assets/script/users.js
+  set the var url with the url absolute the your codeigniter installation
+  Example: http://localhost/codeigniter/
+  var url = '';  
+
+
+</code></pre>
+
+<h1>Config pagination</h1>
+
+<pre><code>
+  Open the file  application/modules/user/controllers/user.php
+
+  In Method
+
+  public function view_list( $begin = 0 )
+
+  $config['per_page'] = 20;  //This set the number of record for page
+
+
+
+</code></pre>
+
+<h1>Config language</h1>
+
+<pre><code>
+  Open the file application/modules/user/controllers/user.php
+  Change the value of vars, for default the value is english  if you want change to, set this to spanish
+
+
+  // Languege
+
+    public $language = 'english';
+
+  // Language Validator
+
+    public $lang_validator = 'english'; 
+
+</code></pre>
+
+<h3>Authors and Contributors</h3>
+
+<p><img src="http://www.ulisesrodriguez.com/images/Logo.png" width="120" height="60">
+<a href="https://github.com/ulisesrodriguez" class="user-mention">@ulisesrodriguez</a></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Hmvccodeigniteruser maintained by <a href="https://github.com/ulisesrodriguez">ulisesrodriguez</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-28627309-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+
+  </body>
+</html>
